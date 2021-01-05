@@ -1,4 +1,6 @@
 @extends('base')
+@section('title','Larasim | About us')
+
 @section('content')
 <p>Built with &hearts; by Manfred Parbatia</p>
 
