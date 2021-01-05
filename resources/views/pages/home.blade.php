@@ -2,7 +2,7 @@
 
 
 @section('content')
-<h1>Hello from Paris</h1>
+<h2>Hello from Paris</h2>
 
 <p>It's currently {{ date('h:i A') }}.</p>
 @endsection
