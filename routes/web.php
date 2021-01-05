@@ -13,10 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('', function () {
+//Ajout du nom des routes avant le get
+Route::name('app_home')->get('', function () {
     return view('pages.home');
-})->name('app_home');
+});
 
+//Ajout du nom de la route à la fin
 Route::get('about', function () {
     return view('pages.about');
 })->name('app_about');
