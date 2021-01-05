@@ -4,15 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>About us | Larasim</title>
+        <title>Larasim</title>
     </head>
     <body>
-        <p>Built with &hearts; by Manfred Parbatia</p>
-
-        <p><a href="/">Revenir à la page d'accueil</a></p>
+        @yield('content')
 
         <footer>
-            <p>&copy; Copyright {{ date('Y') }}</p>
+            <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About us</a></p>
         </footer>
     </body>
 </html>
