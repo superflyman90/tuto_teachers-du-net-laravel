@@ -7,13 +7,13 @@
         <title>@yield('title',config('app.name'))</title>
     </head>
     <body>
-        <h1>{{ config('app.name') }}</h1>
+
         @yield('content')
 
 
 
         <footer>
-            <p>&copy; Copyright {{ date('Y') }}
+            <p>&copy; Copyright {{ date('D d M Y') }}
 
                 @if (! Route::is('app_about'))
                     &middot; <a href="{{ route('app_about') }}">About us</a></p>
